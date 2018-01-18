@@ -10,11 +10,11 @@ Parser for any famous mainer's pools. The parser lets to lead monitor work your 
 * #### Naz1 0xXXXXXXXXXXXXXXXXXXXXXXXXX
 * #### Naz2 0xXXXXXXXXXXXXXXXXXXXXXXXXX
   
-After select start.bat in the directory will appear 2 file hashrefinery_result.txt and nanopool_result.txt.
+After select start.bat in the directory will appear 2 file hashrefinery_result.log and nanopool_result.log.
 
 ## Examples:
 * https://github.com/nazik666/Pools_parser/tree/master/Examples/1.jpg <br/>
 * https://github.com/nazik666/Pools_parser/tree/master/Examples/2.jpg
 
-## Warning
-Necessary, for work with it set python interpreter!!!
+## Necessary
+For work with it set python interpreter!!!
