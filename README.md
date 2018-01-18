@@ -13,8 +13,8 @@ Parser for any famous mainer's pools. The parser lets to lead monitor work your 
 After select start.bat in the directory will appear 2 file hashrefinery_result.log and nanopool_result.log.
 
 ## Examples:
-* https://github.com/nazik666/Pools_parser/tree/master/Examples/1.jpg <br/>
-* https://github.com/nazik666/Pools_parser/tree/master/Examples/2.jpg
+* https://github.com/nazik666/Pools_parser/tree/master/Examples/1.png <br/>
+* https://github.com/nazik666/Pools_parser/tree/master/Examples/2.png
 
 ## Necessary
 For work with it set python interpreter!!!
