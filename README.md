@@ -16,7 +16,7 @@ Have been added options for parsing data about miners at site ![suprnova](https:
 ## Examples:
 ![1.png](https://github.com/nazik666/Pools_parser/tree/master/Examples/1.png) <br/>
 ![2.png](https://github.com/nazik666/Pools_parser/tree/master/Examples/2.png) <br/>
-![3.png](https://github.com/nazik666/Pools_parser/tree/master/Examples/3.png) <br/>
+![3.png](https://github.com/nazik666/Pools_parser/tree/master/Examples/3.png) 
 
 ## Necessary
 For work with it set python interpreter!!!
