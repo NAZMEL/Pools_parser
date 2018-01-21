@@ -16,7 +16,7 @@ Have been added options for parsing data about miners at site [suprnova](https:/
 ## Examples:
 * [hashrefinery result](https://github.com/nazik666/Pools_parser/tree/master/Examples/1.png) <br/>
 * [nanopool result](https://github.com/nazik666/Pools_parser/tree/master/Examples/2.png) <br/>
-* [suprnova result](https://github.com/nazik666/Pools_parser/tree/master/Examples/3.png) 
+* [suprnova result](https://github.com/nazik666/Pools_parser/tree/master/Examples/33.png) 
 
 ## Necessary
 For work with it set python interpreter!!!
