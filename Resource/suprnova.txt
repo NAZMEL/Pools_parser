@@ -1,0 +1,6 @@
+[lbry]
+[name_miner1] [email] [password]
+[name2] [email2] [password2]
+[btcz]
+[name1] [email1] [password1]
+[name2] [email2] [password2]

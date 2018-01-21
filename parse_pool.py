@@ -2,6 +2,8 @@ from grab import Grab
 import json
 from time import sleep
 
+from suprnova import SuprnovaParse, record_subdom, read_file_supr
+
 POOLS = ['hashrefinery', 'nanopool_eth', 'lbrypool', 'nanopool_zec', 'nanopool_etc']
 LOGS = [r'Resource\hashrefinery_log.txt', 
         u'Resource\\nanopool_eth_log.txt', 
@@ -49,6 +51,15 @@ class parsePool():
             f.write('\n---------------------------------------------------------------------------------------------')
             if not f.closed:
                 f.close()
+            
+    
+            
+    '''
+    def get_thead_hashrefinery(self):
+        thead = ['Deatails', '\tExtra', 'Algo', '\tDiff','Hashrate']
+        #[thead.append(item.text()) for item in self.g.doc.select('//table[@class="dataGrid2"][2]/thead/tr/th') if item.text() != '']
+        return thead
+    '''
 
     def get_tr_hashrefinery(self):
         tr = []
@@ -83,6 +94,10 @@ def first_record():
             f.write('\t\t' + 'Worker      Hashrate\n')
             f.write('---------------------------------------------------------------------------------------------')
             f.close() 
+
+    with open('suprnova.log' , 'w') as f:
+        f.write('Name\t\tActive worker\t\tKahsh/s\t\tDifficulty\n')
+        f.write('-----------------------------------------------------------------------------\n')
 
 
 def read_file(name):
@@ -119,7 +134,15 @@ def main():
             if POOLS[l] == 'hashrefinery' or POOLS[l] == 'lbrypool':
                 p.wirte_data_hashrefinery()
             else:
-                p.write_data_nanopool()      
+                p.write_data_nanopool() 
+
+    data_supr = read_file_supr(r'Resource\suprnova.txt')
+    for item in data_supr.keys():
+        record_subdom(item)
+        for val in data_supr[item]:
+            a = SuprnovaParse(val[0],val[1], val[2], item)
+            a.record_data()
+            a.Logout()     
 
 
 if __name__ == '__main__':
