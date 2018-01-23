@@ -19,5 +19,5 @@ Have been added options for parsing data about miners at site [suprnova](https:/
 * [suprnova result](https://github.com/nazik666/Pools_parser/tree/master/Examples/33.png) 
 
 ## Necessary
-For work with it set python interpreter!!!
-<span style = "color: red;">Added exe version. It doesn't need Python interpreter!!!</span>
+For work with it set python interpreter!!!</b>
+<p style = "color: red;">Added exe version. It doesn't need Python interpreter!!!</p>
