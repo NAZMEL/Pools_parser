@@ -19,5 +19,5 @@ Have been added options for parsing data about miners at site [suprnova](https:/
 * [suprnova result](https://github.com/nazik666/Pools_parser/tree/master/Examples/33.png) 
 
 ## Necessary
-For work with it set python interpreter!!!</b>
+ ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Added exe version. It doesn't need Python interpreter!!!`
 <p style = "color: red;">Added exe version. It doesn't need Python interpreter!!!</p>
